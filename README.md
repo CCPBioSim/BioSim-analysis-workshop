@@ -34,12 +34,19 @@ The course is constituted of lectures (L1-9) and practical (P) sessions, subdivi
 | L9: Markov State Modelling  | [Lecture Slides](https://github.com/CCPBioSim/Into_to_MD_simulation_and_analysis/blob/main/9_Analysis_MSM/Lecture_9_MSM.pdf) |
 
 
-## Google Colab
+## Running the workshop
+
+### Pre-requisites
+
+The workshop assumes the participant has a working knowledge of [Jupyter notebooks](https://jupyter-notebook.readthedocs.io/en/stable/), Python (especially the [NumPy library](https://numpy.org/), and the bash shell).
+
+
+### Google Colab
 
 The workshop is designed to run on Google Colab and all workshop notebooks run directly from your browser, no installation is required. In particular, please note that the Open Force Field material in the Jupyter notebook of session [4_Simulation_Setup](https://github.com/CCPBioSim/Into_to_MD_simulation_and_analysis/tree/main/4_Simulation_Setup) will not natively run on Windows machines. For extra information [see here](https://docs.openforcefield.org/en/latest/install.html#openff-on-windows).
 
 
-## Setting up your own Python environment 
+### Setting up your own Python environment 
 
 <!--The workshop will be in a blended learning environment and hands-on. You will need a working installation of MDAnalysis and related packages including data to analyze in order to participate. The full installation may take up to about 1 GB of space (mostly for data, which you can delete after the workshop).--> 
 
@@ -49,11 +56,6 @@ are provided in [`INSTALL.md`](INSTALL.md).
 A full list of the required Python packages can be seen inside [`environment.yml`](environment.yml).
 
 To avoid waiting for everyone's setup to be up and running we highly recommend trying this workshop on colab and only once you are back at home and want to explore further to try and run it on your local machine. 
-
-
-## Course pre-requisites
-
-The course assumes that attendees have a working knowledge of [Jupyter notebooks](https://jupyter-notebook.readthedocs.io/en/stable/), Python (especially the [NumPy library](https://numpy.org/), and the bash shell).
 
 
 ## Licenses
