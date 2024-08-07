@@ -1,13 +1,8 @@
 # Molecular Dynamics Simulation and Analysis workshop
 
-## Instructors
-    
-- [Dr Matteo Degiacomi, Durham University (MTD)](https://degiacomi.org)
-- [Dr Antonia Mey, University of Edinburgh (AM)](https://mey-research.org/)  
-
 ## Schedule
 
-L1-8: Lectures. P: practical.
+The course is constituted of lectures (L1-9) and practical (P) sessions, subdivided in two units. Unit 1 is dedicated to providing foundations on protein structure and their preparation for MD simulation. Unit 2 is dedicated to describing means of extracting information from the molecular dynamics simulation of a protein.
 
 ### Unit 1: Simulation Preparation
 
@@ -43,6 +38,7 @@ L1-8: Lectures. P: practical.
 
 The workshop is designed to run on Google Colab and all workshop notebooks run directly from your browser, no installation is required. In particular, please note that the Open Force Field material in the Jupyter notebook of session [4_Simulation_Setup](https://github.com/CCPBioSim/Into_to_MD_simulation_and_analysis/tree/main/4_Simulation_Setup) will not natively run on Windows machines. For extra information [see here](https://docs.openforcefield.org/en/latest/install.html#openff-on-windows).
 
+
 ## Setting up your own Python environment 
 
 <!--The workshop will be in a blended learning environment and hands-on. You will need a working installation of MDAnalysis and related packages including data to analyze in order to participate. The full installation may take up to about 1 GB of space (mostly for data, which you can delete after the workshop).--> 
@@ -54,9 +50,10 @@ A full list of the required Python packages can be seen inside [`environment.yml
 
 To avoid waiting for everyone's setup to be up and running we highly recommend trying this workshop on colab and only once you are back at home and want to explore further to try and run it on your local machine. 
 
+
 ## Course pre-requisites
 
-The course assumes that attendees have a working knowledge of [Jupyter notebooks](https://jupyter-notebook.readthedocs.io/en/stable/), Python (especially the [NumPy library](https://numpy.org/), and the bash shell.
+The course assumes that attendees have a working knowledge of [Jupyter notebooks](https://jupyter-notebook.readthedocs.io/en/stable/), Python (especially the [NumPy library](https://numpy.org/), and the bash shell).
 
 
 ## Licenses
@@ -77,6 +74,7 @@ The course assumes that attendees have a working knowledge of [Jupyter notebooks
 <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons Licence" style="width=50" src="https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png" title='This work is licensed under a Creative Commons Attribution 4.0 International License.' align="right"/></a>
 
 
-## Acknowledgements
+## Authors
 
-Please see [`AUTHORS.md`](AUTHORS.md) for a list of contributors to the workshop materials.
+- [Dr Matteo Degiacomi, Durham University](https://degiacomi.org)
+- [Dr Antonia Mey, University of Edinburgh](https://mey-research.org/)  
