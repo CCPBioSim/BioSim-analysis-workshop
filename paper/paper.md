@@ -30,7 +30,7 @@ bibliography: paper.bib
 
 # Summary
 
-We present an open-source course featuring a blend of lectures and practical sessions teaching how to set-up and analyse molecular dynamics (MD) simulations of biomolecules, with a particular focus on proteins. 
+We present an open-source course teaching how to set-up and analyse molecular dynamics (MD) simulations of biomolecules, with a particular focus on proteins. The course features a blend of lectures coupled with practical sessions using Jupyter notebooks.
 
 # Statement of Need
 
@@ -64,7 +64,7 @@ The first Unit is dedicated to providing background on protein structure, and ho
 | P: Simulation Setup          | [![Simulation](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CCPBioSim/Into_to_MD_simulation_and_analysis/blob/main/4_Simulation_Setup/4_Simulation_Setup.ipynb) |
 
 
-### Unit 2: Simulation Anaylsis
+### Unit 2: Simulation Analysis
 
 The second Unit is dedicated to providing the students with means to extract relevant quantitative information from a molecular dynamics simulation trajectory. A key aspect of this Unit lies in the demonstration of how machine learning techniques (clustering, dimensionality reduction, classification) can be used to extract meaningful information from noisty and high-dimensional data associated with biomolecular MD simulations.
 
