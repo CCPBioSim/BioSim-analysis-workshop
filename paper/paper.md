@@ -30,22 +30,22 @@ bibliography: paper.bib
 
 # Summary
 
-[...]
+We present an open-source course featuring a blend of lectures and practical sessions teaching how to set-up and analyse molecular dynamics (MD) simulations of biomolecules, with a particular focus on proteins. The material presented in this course has been delivered since 2022 to cohorts of 30-40 postgraduates attending the UK-based CCP5 Summer School on Molecular simulation.
 
 # Statement of Need
 
-Biomolecular systems have been the first to be subjected to molecular dynamics simulations, and are thus underpinned by half a century history rich of methodological developments, embodied in a vast array of available software.
-[...]
+Biomolecular systems have been the first to be subjected to molecular dynamics (MD) simulations, and are thus underpinned by half a century history rich of methodological developments, embodied in a vast array of available software. The improvement in physical models dictating interatomic interactions couple with an ever-increasing availability of computational power have enabled MD simulations to establish themselves as a technique complementary to experimental data. Starting from the simulation of small proteins for only a few nanoseconds, nowadays large biomolecular complexes featuring millions of atoms can be simulated for timescales orders of magnitude longer. The data produced by MD simulations is noisy and high-dimensional though, and its usefulness is directly dependent on how faithfully the molecular system simulated recapitulates the phisiochemical conditions of its real counterpart.
+While since the mid-70s strides have been made to automate the preparation of biologically-relevant atomistic models and the analysis of simulation data, the modern computational scientist is still required to make critical decisions on how the system should be assembled and simulated, and on which quantities should be extracted from the resulting simulation so as to precisely and accurately explain, or predict, experimental data.
 
 # Overview, Content, and Structure
 
 ## Target Audience 
 
-This is a graduate-level course, aimed at beginners in biomolecular simulation. It is expected that students are already familiar with molecular dynamics simulation theory, and have a basic working knowledge of Python and its core scientific packages (numpy, scipy, matplotlib).
+This is a graduate-level course, aimed at beginners in biomolecular simulation. It is expected that students are already familiar with key concepts of molecular dynamics simulation theory, and have a basic working knowledge of Python and its core scientific packages (numpy, scipy, matplotlib).
 
 ## Content
 
-The objective of this course is not to make students proficient in one or few selected software for MD simulation preparation, execution, or analysisis. Instead, it is instead aimed at providing students with a general overview of the key decision-making required to carry out MD simulations of biomolecules and extracting quantitative data from them. In this context, the course is subdivided in two Units featuring lectures and practical sessions. Lectures are software-agnostic, whereas practical sessions demonstrate how those concepts could be put into practice by exposing student to authentic tasks leveraging on commonly used Python packages. While each practical session can be run by students on their own computer, these are also available in Google colab. This solution, requiring on local installation, is especially suitable for for those unfamiliar with how to set-up a Python environment.
+The objective of this course is not to make students proficient in one or few selected software for MD simulation preparation, execution, or analysisis. Instead, it is aimed at providing students with a general overview of the key decision-making required to carry out MD simulations of biomolecules and extracting quantitative data from them. In this context, the course is subdivided in two Units featuring lectures and practical sessions. Lectures are software-agnostic, whereas practical sessions demonstrate how those concepts could be put into practice by exposing student to authentic tasks leveraging on commonly used Python packages. While each practical session can be run by students on their own computer, these are also available in Google colab. This solution, requiring on local installation, is especially suitable for those unfamiliar with how to set-up a Python environment.
 
 ### Unit 1: Simulation Preparation
 
@@ -89,7 +89,9 @@ In our own teaching practice, we provide students with post-its of two different
 
 # Conclusion
 
-[...]
+Thanks to the increasing availability of computational power and software automating many of the processes associated with biomolecular simulation and analysis, the palette of questions addressable with MD is broadening. While this is positive, it is still crucial that the computational scientist has a clear understanding of what is being simulated, and how. Indeed, to date many decisions associated with system building and analysis cannot be delegated to a machine without human verification. In this context, we see our course as a first stepping-stone, detailing the key decisions that need to be made, providing examples of how this can be done in practice, and signposting relevant software and specialised analysis techniques for further education.
+
+Despite its long history, MD is still an evolving field. New techniques pushing the boundary of what is possible keep emerging, as exemplified by the current revolution constituted by the advent of modern machine learning techniques. While we expect that majority of the concepts presented in this course will be valid for many years to come, we are endeavouring to keeping the course material up-to-date by highlighting current methodological trends. For instance, in the most recent interation presented in this publication a discussion on how models produced by AlphaFold should be interpreted and used is introduced.
 
 
 # Contributions to the course
