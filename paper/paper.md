@@ -34,7 +34,7 @@ We present an open-source course teaching how to set-up and analyse molecular dy
 
 # Statement of Need
 
-Biomolecular systems have been the first to be subjected to molecular dynamics (MD) simulations, and are thus underpinned by half a century history rich of methodological developments, embodied in a vast array of available software. The improvement in physical models dictating interatomic interactions coupled with an ever-increasing availability of computational power have enabled MD simulations to establish themselves as a technique complementary to experimental data [ref_review?]. Starting from the simulation of small proteins for only a few nanoseconds [ref Levitt-Warshel], nowadays large biomolecular complexes featuring millions of atoms can be simulated for timescales orders of magnitude longer [refs]. The data produced by MD simulations is noisy and high-dimensional though, and its usefulness is directly dependent on how faithfully the molecular system simulated recapitulates the phisiochemical conditions of its real counterpart. While since the mid-70s strides have been made to automate the preparation of biologically-relevant atomistic models and the analysis of simulation data, the modern computational scientist is still required to make critical decisions on how the system should be assembled and simulated, and on which quantities should be extracted from the resulting simulation so as to precisely and accurately explain, or predict, experimental data.
+Biomolecular systems have been the first to be subjected to molecular dynamics (MD) simulations, and are thus underpinned by half a century history rich of methodological developments, embodied in a wide range of specialised software. The improvement in physical models dictating interatomic interactions coupled with an ever-increasing availability of computational power have enabled MD simulations to establish themselves as a technique complementary to experimental data [ref_review?]. Starting from the simulation of small proteins for only a few nanoseconds [ref Levitt-Warshel], nowadays large biomolecular complexes featuring millions of atoms can be simulated for timescales orders of magnitude longer [refs]. The data produced by MD simulations is noisy and high-dimensional though, and its usefulness is directly dependent on how faithfully the molecular system simulated recapitulates the physiochemical conditions of its real-world counterpart. Since the mid-1970s, significant progress has been made in automating the preparation of biologically relevant atomistic models and the analysis of simulation data. Nonetheless, modern computational scientists must still make critical decisions about how to assemble and simulate the system, as well as which quantities to extract from the resulting data to accurately explain or predict experimental outcomes.
 
 The material presented in this course has been deeloped to be be delivered in the scope of the UK-based CCP5 Summer School on Molecular simulation. Since 2022, is has been delivered to three cohorts of 30-40 international postgraduates. A first unique aspect of this course is that it provides under the same hood information on both the set-up and the analysis of MD simulations, typically presented separately. A second unique aspect is that it demonstrates how machine learning techniques can be used to extract relevant information from an MD simulation.
 
@@ -51,7 +51,7 @@ The objective of this course is not to make students proficient in one or few se
 
 ### Unit 1: Simulation Preparation
 
-The first Unit is dedicated to providing background on protein structure, and how to prepare a protein for biomolecular simulation. In this Unit, students learn about how to critically observe a protein structure, and make informed decisions required to set-up a simulation faithfully recapitulating a biologically relevant system.
+The first Unit is dedicated to providing background on protein structure, and how to prepare a protein for biomolecular simulation. In this Unit, students learn about how to critically observe a protein structure, and make informed decisions required to set-up a simulation that faithfully recapitulates a biologically relevant system.
 
 | Session                            | Materials |
 |------------------------------------|-----------|
@@ -62,7 +62,6 @@ The first Unit is dedicated to providing background on protein structure, and ho
 | P: Protein-Ligand Docking                 |  [![Docking](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CCPBioSim/Into_to_MD_simulation_and_analysis/blob/main/3_Docking/3_Docking.ipynb)| 
 | L3: Simulation Setup          | [Lecture Slides](https://github.com/CCPBioSim/Into_to_MD_simulation_and_analysis/blob/main/4_Simulation_Setup/Lecture_4_Simulation_setup.pdf) |
 | P: Simulation Setup          | [![Simulation](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CCPBioSim/Into_to_MD_simulation_and_analysis/blob/main/4_Simulation_Setup/4_Simulation_Setup.ipynb) |
-
 
 ### Unit 2: Simulation Analysis
 
@@ -84,24 +83,26 @@ The second Unit is dedicated to providing the students with means to extract rel
 
 # Assessment and feedback
 
-Each Jupyter notebook contains information on a specific topic, as well as task the student is asked to carry out independently. The tasks range from interpreting data previously produced, to running presented code with different parameters, to solving a specific problem by implementing a short Python code. Solutions to all questions are provided in the notebook as drop-down cells.
+Each Jupyter notebook contains information on a specific topic, as well as tasks the student is asked to carry out independently. The tasks range from interpreting data previously produced, to running presented code with different parameters, to solving a specific problem by implementing a short Python code. Solutions to all questions are provided in each notebook as drop-down cells, enabling students to self-assess their understanding.
 
 In our own teaching practice, we provide students with post-its of two different colours that can be displayed on their computer screen --- yellow indicating that everything is clear, pink indicating that help is required. At the end of each practical session, studends are asked to use these same post-its to provide instructors with feedback on something they liked (yellow post-it), and something that requires improvement (pink post-it). In the three years we have delivered this course, this appoach has enabled us to gather comprehensive feedback, helping us fine-tuning the teaching material and our own delivery style. A key observation is that students, when presented with a new notebook, especially appreciate the instructors spending few minutes describing the overall notebook structure and the tasks it features, before working through the beginning of it.
 
 
 # Conclusion
 
-Thanks to the increasing availability of computational power and software automating many of the processes associated with biomolecular simulation and analysis, the palette of questions addressable with MD is broadening. While this is positive, it is still crucial that the computational scientist has a clear understanding of what is being simulated, and how. Indeed, to date many decisions associated with system building and analysis cannot be delegated to a machine without human verification. In this context, we see our course as a first stepping-stone, detailing the key decisions that need to be made, providing examples of how this can be done in practice, and signposting relevant software and specialised analysis techniques for further education.
+Thanks to the increasing availability of computational power and software automating many of the processes associated with biomolecular simulation and analysis, the palette of questions addressable with MD is broadening. While this is positive, it remains crucial for computational scientists to have a clear understanding of what is being simulated and how. Indeed, to date many decisions associated with system building and analysis cannot be delegated to a machine without human verification. In this context, we see our course as a first stepping-stone, detailing the key decisions that need to be made, providing examples of how this can be done in practice, and directing learners to relevant software and specialized analysis techniques for further education.
 
-Despite its long history, MD is still an evolving field. New techniques pushing the boundary of what is possible keep emerging, as exemplified by the current revolution constituted by the advent of modern machine learning techniques. While we expect that majority of the concepts presented in this course will be valid for many years to come, we are endeavouring to keeping the course material up-to-date by highlighting current methodological trends. For instance, in the most recent interation presented in this publication a discussion on how models produced by AlphaFold [ref] should be interpreted and used is introduced.
+Despite its long history, MD remains an evolving field. New techniques that push the boundaries of what is possible keep emerging, as exemplified by the current revolution associated with the integration of modern machine learning techniques in molecular modelling pipelines. While we expect that majority of the concepts presented in this course will be valid for many years to come, we are endeavouring to keeping the course material up-to-date by highlighting current methodological trends. For instance in the latest iteration of this course we have introduced a discussion on how how to interpret and use models produced by AlphaFold [ref].
 
 
 # Contributions to the course
 
 MTD, MM, and ASJSM conceived the course.
 
+
 # Acknowledgements 
 
-Part of the material in this course was adapted from other sources with the agreement of respective authors. In this context, we would like to acknowledge Matt Thompson, Jeff Wagner, and Josh Mitchell for the material featured in the OpenFF tutorials, César Ramírez-Sarmiento and collaborators for material featured in the Autodock tutorial, and Ifan Alibay and Richard Gowers for material in the MDAnalysis tutorial. We also wish to acknowledge Charlie Laughton for inspiration on discussing RMSD in conjunction with equilibration, and Rohan Gorantla for help with with setting up Colab environments.
+Parts of the material in this course have been adapted from other sources with the agreement of respective authors. In this context, we would like to acknowledge Matt Thompson, Jeff Wagner, and Josh Mitchell for the material featured in the OpenFF tutorials, César Ramírez-Sarmiento and collaborators for material featured in the Autodock tutorial, and Ifan Alibay and Richard Gowers for material in the MDAnalysis tutorial. We also wish to acknowledge Charlie Laughton for inspiration on discussing RMSD in conjunction with equilibration, and Rohan Gorantla for help with with setting up Colab environments.
+
 
 # References
