@@ -9,7 +9,7 @@ authors:
     orcid: 0000-0003-4672-471X 
     affiliation: "1"
   - name: Micaela Matta
-    orcid: xxx
+    orcid: 0000-0002-9852-3154
     affiliation: "2"  
   - name: Antonia S. J. S. Mey
     orcid: 0000-0001-7512-5252
@@ -18,13 +18,13 @@ authors:
 affiliations:
  - name: Department of Physics, Durham University, South Road, Durham, DH1 3LE, United Kingdom 
    index: 1 
- - name: xxxx
+ - name: Department of Chemistry, King's College London, London, SE1 1DB, United Kingdom
    index: 2
  - name: EaStCHEM School of Chemistry, University of Edinburgh, Joseph Black Building, David Brewster Road, Edinburgh, EH9 3FJ, United Kingdom 
    index: 3
 
 
-date: 12 August 2024
+date: 22 August 2024
 bibliography: paper.bib
 ---
 
@@ -36,7 +36,7 @@ We present an open-source course teaching how to set-up and analyse molecular dy
 
 Biomolecular systems have been the first to be subjected to molecular dynamics (MD) simulations, and are thus underpinned by half a century history rich of methodological developments, embodied in a wide range of specialised software. The improvement in physical models dictating interatomic interactions coupled with an ever-increasing availability of computational power have enabled MD simulations to establish themselves as a technique complementary to experimental data [ref_review?]. Starting from the simulation of small proteins for only a few nanoseconds [ref Levitt-Warshel], nowadays large biomolecular complexes featuring millions of atoms can be simulated for timescales orders of magnitude longer [refs]. The data produced by MD simulations is noisy and high-dimensional though, and its usefulness is directly dependent on how faithfully the molecular system simulated recapitulates the physiochemical conditions of its real-world counterpart. Since the mid-1970s, significant progress has been made in automating the preparation of biologically relevant atomistic models and the analysis of simulation data. Nonetheless, modern computational scientists must still make critical decisions about how to assemble and simulate the system, as well as which quantities to extract from the resulting data to accurately explain or predict experimental outcomes.
 
-The material presented in this course has been deeloped to be be delivered in the scope of the UK-based CCP5 Summer School on Molecular simulation. Since 2022, is has been delivered to three cohorts of 30-40 international postgraduates. A first unique aspect of this course is that it provides under the same hood information on both the set-up and the analysis of MD simulations, typically presented separately. A second unique aspect is that it demonstrates how machine learning techniques can be used to extract relevant information from an MD simulation.
+The material presented in this course has been developed in the scope of the UK-based CCP5 Summer School on Molecular simulation. Since 2022, is has been delivered to three cohorts of 30-40 international postgraduates. A first key aspect of this course is that, under the same hood, it provides information on both the set-up and the analysis of MD simulations, typically presented separately. A second key aspect is that it demonstrates how machine learning techniques can be used to extract relevant information from an MD simulation.
 
 
 # Overview, Content, and Structure
@@ -85,7 +85,7 @@ The second Unit is dedicated to providing the students with means to extract rel
 
 Each Jupyter notebook contains information on a specific topic, as well as tasks the student is asked to carry out independently. The tasks range from interpreting data previously produced, to running presented code with different parameters, to solving a specific problem by implementing a short Python code. Solutions to all questions are provided in each notebook as drop-down cells, enabling students to self-assess their understanding.
 
-In our own teaching practice, we provide students with post-its of two different colours that can be displayed on their computer screen --- yellow indicating that everything is clear, pink indicating that help is required. At the end of each practical session, studends are asked to use these same post-its to provide instructors with feedback on something they liked (yellow post-it), and something that requires improvement (pink post-it). In the three years we have delivered this course, this appoach has enabled us to gather comprehensive feedback, helping us fine-tuning the teaching material and our own delivery style. A key observation is that students, when presented with a new notebook, especially appreciate the instructors spending few minutes describing the overall notebook structure and the tasks it features, before working through the beginning of it.
+In our teaching practice, we provide students with post-its of two different colours that can be displayed on their computer screen --- yellow indicating that everything is clear, pink indicating that help is required. At the end of each practical session, studends are asked to use these same post-its to provide instructors with feedback on something they liked (yellow post-it), and something that requires improvement (pink post-it). In the three years we have delivered this course, this appoach has enabled us to gather comprehensive feedback, helping us fine-tuning the teaching material and our own delivery style. A key observation is that students, when presented with a new notebook, especially appreciate the instructors spending few minutes describing the overall notebook structure and the tasks it features, before working through the beginning of it.
 
 
 # Conclusion
