@@ -1,5 +1,5 @@
 ---
-title: 'Course Materials for an Introduction to Data-Driven Chemistry'
+title: 'A course on the setup, running, and analysis of biomolecular simulations'
 tags:
   - molecular simulation
   - python
