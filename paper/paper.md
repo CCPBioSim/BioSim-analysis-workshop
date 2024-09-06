@@ -102,7 +102,7 @@ MTD, MM, and ASJSM conceived the course.
 
 # Acknowledgements 
 
-Parts of the material in this course have been adapted from other sources with the agreement of respective authors. In this context, we would like to acknowledge Matt Thompson, Jeff Wagner, and Josh Mitchell for the material featured in the OpenFF tutorials, César Ramírez-Sarmiento and collaborators for material featured in the Autodock tutorial, and Ifan Alibay and Richard Gowers for material in the MDAnalysis tutorial. We also wish to acknowledge Charlie Laughton for inspiration on discussing RMSD in conjunction with equilibration, and Rohan Gorantla for help with with setting up Colab environments.
+Parts of the material in this course have been adapted from other sources with the agreement of respective authors. In this context, we would like to acknowledge Matt Thompson, Jeff Wagner, and Josh Mitchell for the material featured in the OpenFF tutorials, César Ramírez-Sarmiento and collaborators for material featured in the Autodock tutorial, and Irfan Alibay and Richard Gowers for material in the MDAnalysis tutorial. We also wish to acknowledge Charlie Laughton for inspiration on discussing RMSD in conjunction with equilibration, and Rohan Gorantla for help with with setting up Colab environments.
 
 
 # References
