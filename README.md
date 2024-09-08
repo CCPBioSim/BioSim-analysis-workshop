@@ -2,7 +2,7 @@
 
 ## Schedule
 
-The course is constituted of lectures (L1-9) and practical (P) sessions, subdivided in two units. Unit 1 is dedicated to providing foundations on protein structure and their preparation for MD simulation. Unit 2 is dedicated to describing means of extracting information from the molecular dynamics simulation of a protein.
+The course is constituted of lectures (L1-8) and practical (P) sessions, subdivided in two units. Unit 1 is dedicated to providing foundations on protein structure and their preparation for MD simulation. Unit 2 is dedicated to describing means of extracting information from the molecular dynamics simulation of a protein.
 
 ### Unit 1: Simulation Preparation
 
@@ -47,19 +47,11 @@ The workshop is designed to run on Google Colab and all workshop notebooks run d
 
 ### Setting up your own Python environment 
 
-<!--The workshop will be in a blended learning environment and hands-on. You will need a working installation of MDAnalysis and related packages including data to analyze in order to participate. The full installation may take up to about 1 GB of space (mostly for data, which you can delete after the workshop).--> 
-
-Instructions for setting up your environment to run this workshop locally
-are provided in [`INSTALL.md`](INSTALL.md).
-
+Instructions for setting up your environment to run this workshop locally are provided in [`INSTALL.md`](INSTALL.md).
 A full list of the required Python packages can be seen inside [`environment.yml`](environment.yml).
-
-To avoid waiting for everyone's setup to be up and running we highly recommend trying this workshop on colab and only once you are back at home and want to explore further to try and run it on your local machine. 
 
 
 ## Licenses
-
-<!--TBA-->
 
 - The MDAnalysis logo and its derivatives are licensed under the [Creative Commons Attribution-NoDerivs 3.0 Unported License](https://creativecommons.org/licenses/by-nd/3.0/).
 - The MDAnalysis material in folder [5_\*](https://github.com/CCPBioSim/Into_to_MD_simulation_and_analysis/tree/main/5_Analysis_MDAnalysis) is licenced under CC-BY 4.0 
