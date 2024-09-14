@@ -8,20 +8,25 @@ authors:
   - name: Matteo T. Degiacomi
     orcid: 0000-0003-4672-471X 
     affiliation: "1"
+  - name: Richard J. Gowers
+    orcid: 0000-0002-3241-1846 
+    affiliation: "2"
   - name: Micaela Matta
     orcid: 0000-0002-9852-3154
-    affiliation: "2"  
+    affiliation: "3"  
   - name: Antonia S. J. S. Mey
     orcid: 0000-0001-7512-5252
-    affiliation: "3"
+    affiliation: "4"
 
 affiliations:
  - name: Department of Physics, Durham University, South Road, Durham, DH1 3LE, United Kingdom 
-   index: 1 
+   index: 1
+ - name: CHARM Therapeutics Ltd, 7 Pancras Square, London, N1C 4AG
+   index: 2 
  - name: Department of Chemistry, King's College London, London, SE1 1DB, United Kingdom
-   index: 2
- - name: EaStCHEM School of Chemistry, University of Edinburgh, Joseph Black Building, David Brewster Road, Edinburgh, EH9 3FJ, United Kingdom 
    index: 3
+ - name: EaStCHEM School of Chemistry, University of Edinburgh, Joseph Black Building, David Brewster Road, Edinburgh, EH9 3FJ, United Kingdom 
+   index: 4
 
 
 date: 22 August 2024
@@ -36,7 +41,7 @@ We present an open-source course teaching how to set-up and analyse molecular dy
 
 Biomolecular systems were one of the first systems used in molecular dynamics (MD) simulations [@levitt1975computer]. As such biomolecular simulations build on a rich half a century history rich of methodological developments, embodied in a wide range of specialised software. The improvement in physical models dictating interatomic interactions coupled with an ever-increasing availability of computational power have enabled MD simulations to establish themselves as a technique complementary to experimental data [@hollingsworth2018molecular, @ciccotti2022molecular]. Starting from the simulation of small proteins for only a few nanoseconds [@levitt1975computer], nowadays large biomolecular complexes featuring millions of atoms can be simulated for timescales orders of magnitude longer [@lindorff-larsen2011howa]. The data produced by MD simulations is noisy and high-dimensional though, and its usefulness is directly dependent on how faithfully the molecular system simulated recapitulates the physiochemical conditions of its real-world counterpart. Since the mid-1970s, significant progress has been made in automating the preparation of biologically relevant atomistic models and the analysis of simulation data. Nonetheless, modern computational scientists must still make critical decisions on how to assemble and simulate the system, as well as which quantities to extract from the resulting data to accurately explain or predict experimental outcomes.
 
-The material presented in this course has been developed in the scope of the UK-based CCP5 Summer School on Molecular simulation. Since 2022, is has been delivered to three cohorts of 30-40 international postgraduates. A first key aspect of this course is that, under the same hood, it provides information on both the set-up and the analysis of MD simulations, typically presented separately. A second key aspect is that it demonstrates how machine learning techniques can be integrated in the analysis of MD simulations and used to extract relevant information from an MD simulation.
+The material presented in this course has been developed as training material for the CCPBioSim consortium. Since 2022, is has been delivered to three cohorts of 25-35 international postgraduates attending the UK-based CCP5 Summer School on Molecular simulation. A first key aspect of this course is that, under the same hood, it provides information on both the set-up and the analysis of MD simulations, typically presented separately. A second key aspect is that it demonstrates how machine learning techniques can be integrated in the analysis of MD simulations and used to extract relevant information from an MD simulation.
 
 
 # Overview, Content, and Structure
@@ -47,7 +52,7 @@ This is a graduate-level course, aimed at beginners in biomolecular simulation. 
 
 ## Content
 
-The objective of this course is not to make students proficient in one or few selected software for MD simulation preparation, execution, or analysisis. Instead, it is aimed at providing students with a general overview of the key decision-making required to carry out MD simulations of biomolecules and extracting quantitative data from them. In this context, the course is subdivided in two Units featuring lectures and practical sessions. Lectures are software-agnostic, whereas practical sessions demonstrate how those concepts could be put into practice by exposing student to authentic tasks leveraging on commonly used Python packages, such as MDAnalysis [@michaud-agrawal2011mdanalysis, oliver_beckstein-proc-scipy-2016@alibay2023building] and scikit-learn [@pedregosa2011scikitlearn]. While each practical session can be run by students on their own computer, these are also available in Google colab. This solution, requiring no local installation, is especially suitable for those unfamiliar with how to set-up a Python environment, or having limited access to computational resources.
+The objective of this course is not to make students proficient in one or few selected software for MD simulation preparation, execution, or analysisis. Instead, it is aimed at providing students with a general overview of the key decision-making required to carry out MD simulations of biomolecules and extracting quantitative data from them. In this context, the course is subdivided in two Units featuring practical sessions and lectures. Practical sessions demonstrate how key concepts in molecular modelling are put into practice by exposing student to authentic tasks leveraging on commonly used Python packages, such as MDAnalysis [@michaud-agrawal2011mdanalysis, oliver_beckstein-proc-scipy-2016@alibay2023building] and scikit-learn [@pedregosa2011scikitlearn]. Lectures are software-agnostic and provide additional material to the course. While each practical session can be run by students on their own computer, these are also available in Google colab. This solution, requiring no local installation, is especially suitable for those unfamiliar with how to set-up a Python environment, or having limited access to computational resources.
 
 ### Unit 1: Simulation Preparation
 
@@ -96,12 +101,12 @@ Despite its long history, MD remains an evolving field. New techniques that push
 
 # Contributions to the course
 
-MTD, MM, and ASJSM conceived the course.
+MTD and ASJSM conceived the course with contributions from RJG and MM.
 
 
 # Acknowledgements 
 
-Parts of the material in this course have been adapted from other sources with the agreement of respective authors. In this context, we would like to acknowledge Matt Thompson, Jeff Wagner, and Josh Mitchell for the material featured in the OpenFF tutorials, César Ramírez-Sarmiento and collaborators for material featured in the Autodock tutorial, and Irfan Alibay and Richard Gowers for material in the MDAnalysis tutorial. We also wish to acknowledge Charlie Laughton for inspiration on discussing RMSD in conjunction with equilibration, and Rohan Gorantla for help with with setting up Colab environments.
+Parts of the material in this course have been adapted from other sources with the agreement of respective authors. In this context, we would like to acknowledge Matt Thompson, Jeff Wagner, and Josh Mitchell for the material featured in the OpenFF tutorials, César Ramírez-Sarmiento and collaborators for material featured in the Autodock tutorial. We also wish to acknowledge Charlie Laughton for inspiration on discussing RMSD in conjunction with equilibration, and Irfan Alibay and Rohan Gorantla for help with with setting up Colab environments.
 
 
 # References
