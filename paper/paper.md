@@ -52,7 +52,7 @@ This is a graduate-level course, aimed at beginners in biomolecular simulation. 
 
 ## Content
 
-The objective of this course is not to make students proficient in one or few selected software for MD simulation preparation, execution, or analysisis. Instead, it is aimed at providing students with a general overview of the key decision-making required to carry out MD simulations of biomolecules and extracting quantitative data from them. In this context, the course is subdivided in two Units featuring practical sessions and lectures. Practical sessions demonstrate how key concepts in molecular modelling are put into practice by exposing student to authentic tasks leveraging on commonly used Python packages, such as MDAnalysis [@michaud-agrawal2011mdanalysis, oliver_beckstein-proc-scipy-2016@alibay2023building] and scikit-learn [@pedregosa2011scikitlearn]. Lectures are software-agnostic and provide additional material to the course. While each practical session can be run by students on their own computer, these are also available in Google colab. This solution, requiring no local installation, is especially suitable for those unfamiliar with how to set-up a Python environment, or having limited access to computational resources.
+The objective of this course is not to make students proficient in one or few selected software for MD simulation preparation, execution, or analysisis. Instead, it is aimed at providing students with a general overview of the key decision-making required to carry out MD simulations of biomolecules and extracting quantitative data from them. In this context, the course is subdivided in two Units featuring practical sessions and lectures. Practical sessions demonstrate how key concepts in molecular modelling are put into practice by exposing student to authentic tasks leveraging on commonly used Python packages, such as MDAnalysis [@michaud-agrawal2011mdanalysis, @oliver_beckstein-proc-scipy-2016, @alibay2023building] and scikit-learn [@pedregosa2011scikitlearn]. Lectures are software-agnostic and provide additional material to the course. While each practical session can be run by students on their own computer, these are also available in Google colab. This solution, requiring no local installation, is especially suitable for those unfamiliar with how to set-up a Python environment, or having limited access to computational resources.
 
 ### Unit 1: Simulation Preparation
 
@@ -62,10 +62,9 @@ The first Unit is dedicated to providing background on protein structure, and ho
 |------------------------------------|-----------|
 | L1: Introduction to Proteins | [Lecture Slides](https://github.com/CCPBioSim/Into_to_MD_simulation_and_analysis/blob/main/1_Introduction/Lecture_1_Introduction.pdf) | 
 | L2: Understanding Protein Systems | [Lecture Slides](https://github.com/CCPBioSim/Into_to_MD_simulation_and_analysis/blob/main/2_Protein_Preparation/Lecture_2_Protein_Prep.pdf)
-| P: Understanding Protein Systems, contd. | [Webserver](https://server.poissonboltzmann.org/pdb2pqr)|
-| L4: Protein-Ligand Docking                 |  [Lecture Slides](https://github.com/CCPBioSim/Into_to_MD_simulation_and_analysis/blob/main/3_Docking/Lecture_3_Docking.pdf)| 
+| L3: Protein-Ligand Docking                 |  [Lecture Slides](https://github.com/CCPBioSim/Into_to_MD_simulation_and_analysis/blob/main/3_Docking/Lecture_3_Docking.pdf)| 
 | P: Protein-Ligand Docking                 |  [![Docking](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CCPBioSim/Into_to_MD_simulation_and_analysis/blob/main/3_Docking/3_Docking.ipynb)| 
-| L3: Simulation Setup          | [Lecture Slides](https://github.com/CCPBioSim/Into_to_MD_simulation_and_analysis/blob/main/4_Simulation_Setup/Lecture_4_Simulation_setup.pdf) |
+| L4: Simulation Setup          | [Lecture Slides](https://github.com/CCPBioSim/Into_to_MD_simulation_and_analysis/blob/main/4_Simulation_Setup/Lecture_4_Simulation_setup.pdf) |
 | P: Simulation Setup          | [![Simulation](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CCPBioSim/Into_to_MD_simulation_and_analysis/blob/main/4_Simulation_Setup/4_Simulation_Setup.ipynb) |
 
 ### Unit 2: Simulation Analysis
@@ -74,9 +73,9 @@ The second Unit is dedicated to providing the students with means to extract rel
 
 | Session                                             | Materials |
 |-----------------------------------------------------|-----------|
-| L5: Simulation Basic Analyses             | [Lecture Slides](5_Analysis_MDAnalysis/Lecture_5_Analysis_MDAnalysis.pdf)|
+| L5: Simulation Basic Analyses             | [Lecture Slides](https://github.com/CCPBioSim/Into_to_MD_simulation_and_analysis/blob/main/5_Analysis_MDAnalysis/Lecture_5_Analysis_MDAnalysis.pdf)|
 | P: Simulation Basic Analyses             | [![Analysis_0](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CCPBioSim/Into_to_MD_simulation_and_analysis/blob/main/5_Analysis_MDAnalysis/5_Analysis_MDAnalysis.ipynb)|
-| L6: Dimensionality Reduction                  | [Lecture Slides](https://github.com/CCPBioSim/Into_to_MD_simulation_and_analysis/blob/main/6_Analysis_DR/Lecture_6_DR.pdf)  |
+| L6: Dimensionality Reduction                   | [Lecture Slides](https://github.com/CCPBioSim/Into_to_MD_simulation_and_analysis/blob/main/6_Analysis_DR/Lecture_6_DR.pdf)  |
 | P: Dimensionality Reduction, part 1           |  [![Analysis_1](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CCPBioSim/Into_to_MD_simulation_and_analysis/blob/main/6_Analysis_DR/6_Analysis_part1.ipynb)|
 | P: Dimensionality Reduction, part 2           | [![Analysis_2](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CCPBioSim/Into_to_MD_simulation_and_analysis/blob/main/6_Analysis_DR/6_Analysis_part2.ipynb)|
 | L7: Clustering   | [Lecture Slides](https://github.com/CCPBioSim/Into_to_MD_simulation_and_analysis/blob/main/7_Analysis_clustering/Lecture_7_Clustering.pdf)|
@@ -106,7 +105,7 @@ MTD and ASJSM conceived the course with contributions from RJG and MM.
 
 # Acknowledgements 
 
-Parts of the material in this course have been adapted from other sources with the agreement of respective authors. In this context, we would like to acknowledge Matt Thompson, Jeff Wagner, and Josh Mitchell for the material featured in the OpenFF tutorials, César Ramírez-Sarmiento and collaborators for material featured in the Autodock tutorial. We also wish to acknowledge Charlie Laughton for inspiration on discussing RMSD in conjunction with equilibration, and Irfan Alibay and Rohan Gorantla for help with with setting up Colab environments.
+Parts of the material in this course have been adapted from other sources with the agreement of respective authors. In this context, we would like to acknowledge Matt Thompson, Jeff Wagner, and Josh Mitchell for the material featured in the OpenFF tutorials, César Ramírez-Sarmiento and collaborators for material featured in the Autodock tutorial. We also wish to acknowledge Charlie Laughton for inspiration on discussing RMSD in conjunction with equilibration, and Irfan Alibay and Rohan Gorantla for help with setting up Colab environments.
 
 
 # References
