@@ -70,4 +70,6 @@ A full list of the required Python packages can be seen inside [`environment.yml
 ## Authors
 
 - [Dr Matteo Degiacomi, Durham University](https://degiacomi.org)
-- [Dr Antonia Mey, University of Edinburgh](https://mey-research.org/)  
+- [Dr Antonia Mey, University of Edinburgh](https://mey-research.org/)
+- [Dr Micaela Matta, King's College London](https://www.kcl.ac.uk/people/micaela-matta)
+- Dr Richard Gowers
