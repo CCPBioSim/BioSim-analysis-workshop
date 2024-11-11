@@ -7,29 +7,29 @@ tags:
 authors:
   - name: Matteo T. Degiacomi
     orcid: 0000-0003-4672-471X 
-    affiliation: "1"
+    affiliation: "1, 2"
   - name: Richard J. Gowers
     orcid: 0000-0002-3241-1846 
-    affiliation: "2"
+    affiliation: "3"
   - name: Micaela Matta
     orcid: 0000-0002-9852-3154
-    affiliation: "3"  
+    affiliation: "4"
   - name: Antonia S. J. S. Mey
     orcid: 0000-0001-7512-5252
-    affiliation: "4"
+    affiliation: "2"
 
 affiliations:
- - name: Department of Physics, Durham University, South Road, Durham, DH1 3LE, United Kingdom 
+ - name: School of Informatics, University of Edinburgh, Informatics Forum, 10 Crichton St, Edinburgh EH8 9AB, United Kingdom 
    index: 1
- - name: CHARM Therapeutics Ltd, 7 Pancras Square, London, N1C 4AG
-   index: 2 
- - name: Department of Chemistry, King's College London, London, SE1 1DB, United Kingdom
-   index: 3
  - name: EaStCHEM School of Chemistry, University of Edinburgh, Joseph Black Building, David Brewster Road, Edinburgh, EH9 3FJ, United Kingdom 
+   index: 2
+ - name: CHARM Therapeutics Ltd, 7 Pancras Square, London, N1C 4AG
+   index: 3 
+ - name: Department of Chemistry, King's College London, London, SE1 1DB, United Kingdom
    index: 4
 
 
-date: 22 August 2024
+date: 11 November 2024
 bibliography: paper.bib
 ---
 
