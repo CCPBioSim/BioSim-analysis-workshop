@@ -1,5 +1,9 @@
 # Molecular Dynamics Simulation and Analysis workshop
 
+## Target audience
+
+This is a course aimed at beginners in biomolecular simulation. It is expected that students are already familiar with key concepts of molecular dynamics simulation theory, and have a basic working knowledge of Python and its core scientific packages (numpy, scipy, matplotlib).
+
 ## Schedule
 
 The course is constituted of lectures (L1-8) and practical (P) sessions, subdivided in two units. Unit 1 is dedicated to providing foundations on protein structure and their preparation for molecular dynamics (MD) simulation. Unit 2 is dedicated to describing means of extracting information from the MD simulation of a protein.
