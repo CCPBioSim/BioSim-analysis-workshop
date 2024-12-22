@@ -51,6 +51,29 @@ The workshop is designed to run on Google Colab and all workshop notebooks run d
 Instructions for setting up your environment to run this workshop locally are provided in [`INSTALL.md`](INSTALL.md).
 A full list of the required Python packages can be seen inside [`environment.yml`](environment.yml).
 
+## Contributing to the resource and raising issues
+
+Contributions to the learning resource are welcome. Contributions can be made through creating an issue or a pull request.
+
+### For issues
+- To create an issue, contributors are encouraged to follow the [GitHub quickstart guide on creating an issue.](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue)
+- Make sure to include the following into your issue:
+	-  Are you using the Colab or a local install version
+	-  If it is a local install version what version of the different packages are you running?
+	-  Are you using it as a student or instructor
+	-  Is the issue reporting a bug, an enhancement, or a feature request		
+
+### For pull requests
+- To create a pull request, contributors are encouraged to follow the [GitHub quickstart guide on creating a fork and submitting a pull request.](https://docs.github.com/en/get-started/quickstart/contributing-to-projects)
+
+### Telling us about how you are using the resource
+If you just want to tell us how you have been using the resource just send us an email or raise an issue pointing to your work. 
+
+## Reusing and building on the material for your own course
+
+The easiest way is by cloning the material and adapting it to your needs. This can be just using some partial material or expanding on the existing material. The best way to do this is by either [cloning](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) the repo and building up on it, or using the current repository as a [template repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) for your own or your organisations GitHub account, for more details see the [overview](overview.md) document. 
+
+
 
 ## Licenses
 
