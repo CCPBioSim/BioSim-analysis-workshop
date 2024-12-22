@@ -2,7 +2,8 @@
 
 ## Target audience
 
-This is a course aimed at beginners in biomolecular simulation. It is expected that students are already familiar with key concepts of molecular dynamics simulation theory, and have a basic working knowledge of Python and its core scientific packages (numpy, scipy, matplotlib).
+This is a course aimed at beginners in biomolecular simulation. It is expected that students are already familiar with key concepts of molecular dynamics simulation theory, and have a basic working knowledge of [Jupyter notebooks](https://jupyter-notebook.readthedocs.io/en/stable/), Python (especially the [NumPy library](https://numpy.org/)), and the bash shell.
+
 
 ## Schedule
 
@@ -38,10 +39,6 @@ The course is constituted of lectures (L1-8) and practical (P) sessions, subdivi
 
 
 ## Running the workshop
-
-### Pre-requisites
-
-The workshop assumes the participant has a working knowledge of [Jupyter notebooks](https://jupyter-notebook.readthedocs.io/en/stable/), Python (especially the [NumPy library](https://numpy.org/), and the bash shell).
 
 
 ### Google Colab
