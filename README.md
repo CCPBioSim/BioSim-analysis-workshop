@@ -22,7 +22,7 @@ The course is constituted of lectures (L1-8) and practical (P) sessions, subdivi
 | P: Simulation Setup          | [![Simulation](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CCPBioSim/Into_to_MD_simulation_and_analysis/blob/main/4_Simulation_Setup/4_Simulation_Setup.ipynb) |
 
 
-### Unit 2: Simulation Anaylsis
+### Unit 2: Simulation Analysis
 
 
 | Session                                             | Materials |
