@@ -58,14 +58,16 @@ The objective of this course is not to make students proficient in one or few se
 
 The first Unit is dedicated to providing background on protein structure, and how to prepare a protein for biomolecular simulation. In this Unit, students learn about how to critically observe a protein structure, and make informed decisions required to set-up a simulation that faithfully recapitulates a biologically relevant system.
 
+
+
 | Session                            | Materials |
 |------------------------------------|-----------|
-| L1: Introduction to Proteins | [Lecture Slides](https://github.com/CCPBioSim/Into_to_MD_simulation_and_analysis/blob/main/1_Introduction/Lecture_1_Introduction.pdf) | 
-| L2: Understanding Protein Systems | [Lecture Slides](https://github.com/CCPBioSim/Into_to_MD_simulation_and_analysis/blob/main/2_Protein_Preparation/Lecture_2_Protein_Prep.pdf)
-| L3: Protein-Ligand Docking                 |  [Lecture Slides](https://github.com/CCPBioSim/Into_to_MD_simulation_and_analysis/blob/main/3_Docking/Lecture_3_Docking.pdf)| 
-| P: Protein-Ligand Docking                 |  [Notebook](https://colab.research.google.com/github/CCPBioSim/Into_to_MD_simulation_and_analysis/blob/main/3_Docking/3_Docking.ipynb)| 
-| L4: Simulation Setup          | [Lecture Slides](https://github.com/CCPBioSim/Into_to_MD_simulation_and_analysis/blob/main/4_Simulation_Setup/Lecture_4_Simulation_setup.pdf) |
-| P: Simulation Setup          | [Notebook](https://colab.research.google.com/github/CCPBioSim/Into_to_MD_simulation_and_analysis/blob/main/4_Simulation_Setup/4_Simulation_Setup.ipynb) |
+| L1: Introduction to Proteins | [Lecture Slides](https://github.com/CCPBioSim/BioSim-analysis-workshop/blob/main/1_Introduction/Lecture_1_Introduction.pdf) | 
+| L2: Understanding Protein Systems | [Lecture Slides](https://github.com/CCPBioSim/BioSim-analysis-workshop/blob/main/2_Protein_Preparation/Lecture_2_Protein_Prep.pdf)
+| L3: Protein-Ligand Docking                 |  [Lecture Slides](https://github.com/CCPBioSim/BioSim-analysis-workshop/blob/main/3_Docking/Lecture_3_Docking.pdf)| 
+| P: Protein-Ligand Docking                 |  [Notebook](https://colab.research.google.com/github/CCPBioSim/BioSim-analysis-workshop/blob/main/3_Docking/3_Docking.ipynb)| 
+| L4: Simulation Setup          | [Lecture Slides](https://github.com/CCPBioSim/BioSim-analysis-workshop/blob/main/4_Simulation_Setup/Lecture_4_Simulation_setup.pdf) |
+| P: Simulation Setup          | [Notebook](https://colab.research.google.com/github/CCPBioSim/BioSim-analysis-workshop/blob/main/4_Simulation_Setup/4_Simulation_Setup.ipynb) |
 
 ### Unit 2: Simulation Analysis
 
@@ -73,15 +75,15 @@ The second Unit is dedicated to providing the students with means to extract rel
 
 | Session                                             | Materials |
 |-----------------------------------------------------|-----------|
-| L5: Simulation Basic Analyses             | [Lecture Slides](https://github.com/CCPBioSim/Into_to_MD_simulation_and_analysis/blob/main/5_Analysis_MDAnalysis/Lecture_5_Analysis_MDAnalysis.pdf)|
-| P: Simulation Basic Analyses             | [Notebook](https://colab.research.google.com/github/CCPBioSim/Into_to_MD_simulation_and_analysis/blob/main/5_Analysis_MDAnalysis/5_Analysis_MDAnalysis.ipynb)|
-| L6: Dimensionality Reduction                   | [Lecture Slides](https://github.com/CCPBioSim/Into_to_MD_simulation_and_analysis/blob/main/6_Analysis_DR/Lecture_6_DR.pdf)  |
-| P: Dimensionality Reduction, part 1           |  [Notebook](https://colab.research.google.com/github/CCPBioSim/Into_to_MD_simulation_and_analysis/blob/main/6_Analysis_DR/6_Analysis_part1.ipynb)|
-| P: Dimensionality Reduction, part 2           | [Notebook](https://colab.research.google.com/github/CCPBioSim/Into_to_MD_simulation_and_analysis/blob/main/6_Analysis_DR/6_Analysis_part2.ipynb)|
-| L7: Clustering   | [Lecture Slides](https://github.com/CCPBioSim/Into_to_MD_simulation_and_analysis/blob/main/7_Analysis_clustering/Lecture_7_Clustering.pdf)|
-| P: Clustering   | [Notebook](https://colab.research.google.com/github/CCPBioSim/Into_to_MD_simulation_and_analysis/blob/main/7_Analysis_clustering/7_clustering.ipynb) |
-| L8: Data Classification    | [Lecture Slides](https://github.com/CCPBioSim/Into_to_MD_simulation_and_analysis/blob/main/8_Analysis_classification/Lecture_8_classification.pdf) | 
-| P: Data Classification  | [Notebook](https://colab.research.google.com/github/CCPBioSim/Into_to_MD_simulation_and_analysis/blob/main/8_Analysis_classification/1_classification.ipynb) |
+| L5: Simulation Basic Analyses             | [Lecture Slides](https://github.com/CCPBioSim/BioSim-analysis-workshop/blob/main/5_Analysis_MDAnalysis/Lecture_5_Analysis_MDAnalysis.pdf)|
+| P: Simulation Basic Analyses             | [Notebook](https://colab.research.google.com/github/CCPBioSim/BioSim-analysis-workshop/blob/main/5_Analysis_MDAnalysis/5_Analysis_MDAnalysis.ipynb)|
+| L6: Dimensionality Reduction                   | [Lecture Slides](https://github.com/CCPBioSim/BioSim-analysis-workshop/blob/main/6_Analysis_DR/Lecture_6_DR.pdf)  |
+| P: Dimensionality Reduction, part 1           |  [Notebook](https://colab.research.google.com/github/CCPBioSim/BioSim-analysis-workshop/blob/main/6_Analysis_DR/6_Analysis_DR_part1.ipynb)|
+| P: Dimensionality Reduction, part 2           | [Notebook](https://colab.research.google.com/github/CCPBioSim/BioSim-analysis-workshop/blob/main/6_Analysis_DR/6_Analysis_DR_part2.ipynb)|
+| L7: Clustering   | [Lecture Slides](https://github.com/CCPBioSim/BioSim-analysis-workshop/blob/main/7_Analysis_clustering/Lecture_7_Clustering.pdf)|
+| P: Clustering   | [Notebook](https://colab.research.google.com/github/CCPBioSim/BioSim-analysis-workshop/blob/main/7_Analysis_clustering/7_Analysis_clustering.ipynb) |
+| L8: Data Classification    | [Lecture Slides](https://github.com/CCPBioSim/BioSim-analysis-workshop/blob/main/8_Analysis_classification/Lecture_8_classification.pdf) | 
+| P: Data Classification  | [Notebook](https://colab.research.google.com/github/CCPBioSim/BioSim-analysis-workshop/blob/main/8_Analysis_classification/8_Analysis_classification.ipynb) |
 
 
 # Assessment and feedback
