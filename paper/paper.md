@@ -35,7 +35,7 @@ bibliography: paper.bib
 
 # Summary
 
-We present an open-source course teaching how to set-up and analyse molecular dynamics (MD) simulations of biomolecules using proteins as a use-case. The course consists a blend of lectures and practical sessions using Jupyter notebooks.
+We present an open-source course on how to set-up and analyse molecular dynamics (MD) simulations of biomolecules using proteins as a use-case. The course consists of a blend of lectures and practical sessions using Jupyter notebooks.
 
 # Statement of Need
 
