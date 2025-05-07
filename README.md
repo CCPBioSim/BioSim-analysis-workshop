@@ -1,3 +1,5 @@
+[![DOI](https://jose.theoj.org/papers/10.21105/jose.00265/status.svg)](https://doi.org/10.21105/jose.00265)
+
 # Molecular Dynamics Simulation and Analysis workshop
 
 ## Target audience
